@@ -81,7 +81,7 @@ def check_empty_row_in_matrix(matrix):
 
         for row in range(len(matrix)):
             if len(matrix[row]) != base_length_of_row:
-                return "Rows in matrix are not equal!"
+                return "Length of rows in matrix are not equal!"
 
     return "OK"
 
