@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def matrix_multiplier(first_matrix, second_matrix):
     '''
     Calls function to check if the matrices are valid.
@@ -14,7 +11,20 @@ def matrix_multiplier(first_matrix, second_matrix):
 
     # Matrix multiplication done here
     if (result == "OK"):
-        return np.dot(first_matrix, second_matrix)
+        number_of_rows_of_first_matrix = len(first_matrix)
+        number_of_columns_of_second_matrix = len(second_matrix[0])
+        answer = [[0 for i in range(number_of_columns_of_second_matrix)]
+                  for j in range(number_of_rows_of_first_matrix)]
+
+        # iterate through rows of first_matrix
+        for i in range(len(first_matrix)):
+            # iterate through columns of second_matrix
+            for j in range(len(second_matrix[0])):
+                # iterate through rows of second_matrix
+                for k in range(len(second_matrix)):
+                    answer[i][j] += first_matrix[i][k] * second_matrix[k][j]
+
+        return answer
 
     return result
 

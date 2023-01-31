@@ -24,10 +24,7 @@ def test_matrix_multiplier():
             first_matrix, second_matrix)
         # print(result)
 
-        if type(expected_result) == list:
-            assert (expected_result == result).all()
-        else:
-            assert expected_result == result
+        assert expected_result == result
 
 
 if __name__ == '__main__':
