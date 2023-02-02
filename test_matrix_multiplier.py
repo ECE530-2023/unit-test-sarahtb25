@@ -1,4 +1,5 @@
 import matrix_multiplier
+import cProfile
 
 known_cases = (([['a', 1], [2, 3]], [[1, 2], [3, 4]], "Non-integer value given!"),
                ([[1, 2]], [[
@@ -28,4 +29,5 @@ def test_matrix_multiplier():
 
 
 if __name__ == '__main__':
-    test_matrix_multiplier()
+    cProfile.run('test_matrix_multiplier()')
+    # test_matrix_multiplier()
