@@ -1,5 +1,6 @@
 import matrix_multiplier
 import pytest
+import cProfile
 
 
 def test_non_integer_value_1():
@@ -88,3 +89,16 @@ def test_matrix_multiplication_10():
 
     assert matrix_multiplier.matrix_multiplier(
         first_matrix, second_matrix) == [[5, 8]]
+
+
+if __name__ == '__main__':
+    cProfile.run('test_non_integer_value_1()')
+    cProfile.run('test_rows_columns_mismatch_2()')
+    cProfile.run('test_first_matrix_empty_3()')
+    cProfile.run('test_first_matrix_empty_4()')
+    cProfile.run('test_second_matrix_empty_5()')
+    cProfile.run('test_lengths_of_matrices_mismatch_6()')
+    cProfile.run('test_lengths_of_matrices_mismatch_7()')
+    cProfile.run('test_lengths_of_matrices_mismatch_8()')
+    cProfile.run('test_matrix_multiplication_9()')
+    cProfile.run('test_matrix_multiplication_10()')
