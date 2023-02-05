@@ -67,8 +67,8 @@ if __name__ == '__main__':
     profiler.enable()
     test_matrix_multiplier()
     profiler.disable()
-    # stats = pstats.Stats(profiler).sort_stats('ncalls')
-    stats = pstats.Stats(profiler).sort_stats('cumtime')
+    stats = pstats.Stats(profiler).sort_stats('ncalls')
+    # stats = pstats.Stats(profiler).sort_stats('cumtime')
     stats.print_stats()
 
     snapshot = tracemalloc.take_snapshot()
