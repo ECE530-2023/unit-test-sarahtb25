@@ -1,48 +1,48 @@
-2023-02-04 22:22:30,145 INFO: First Matrix: [['a', 1], [2, 3]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2], [3, 4]]
-2023-02-04 22:22:30,145 INFO: Matrix [['a', 1], [2, 3]] does not have empty rows
-2023-02-04 22:22:30,145 INFO: Matrix [[1, 2], [3, 4]] does not have empty rows
-2023-02-04 22:22:30,145 INFO: Number of columns of first matrix matches number of rows of second matrix
-2023-02-04 22:22:30,145 ERROR: Non-integer value given in matrix [['a', 1], [2, 3]]
-2023-02-04 22:22:30,145 INFO: First Matrix: [[1, 2]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2, 3]]
-2023-02-04 22:22:30,145 INFO: Matrix [[1, 2]] does not have empty rows
-2023-02-04 22:22:30,145 INFO: Matrix [[1, 2, 3]] does not have empty rows
-2023-02-04 22:22:30,145 ERROR: Number of columns of first matrix [[1, 2]] does not match number of rows of second matrix [[1, 2, 3]]
-2023-02-04 22:22:30,145 INFO: First Matrix: [[]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2]]
-2023-02-04 22:22:30,145 ERROR: Empty matrix: [[]]
-2023-02-04 22:22:30,145 INFO: First Matrix: [[1, 2]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[]]
-2023-02-04 22:22:30,145 INFO: Matrix [[1, 2]] does not have empty rows
-2023-02-04 22:22:30,145 ERROR: Empty matrix: [[]]
-2023-02-04 22:22:30,145 INFO: First Matrix: [[]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1]]
-2023-02-04 22:22:30,145 ERROR: Empty matrix: [[]]
-2023-02-04 22:22:30,145 INFO: First Matrix: [[1, 2], [], [2, 3]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2], [3, 5]]
-2023-02-04 22:22:30,145 ERROR: Length of rows in matrix [[1, 2], [], [2, 3]] are not equal!
-2023-02-04 22:22:30,145 INFO: First Matrix: [[1, 2], [[1]], [2, 3]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2], [3, 5]]
-2023-02-04 22:22:30,145 ERROR: Length of rows in matrix [[1, 2], [[1]], [2, 3]] are not equal!
-2023-02-04 22:22:30,145 INFO: First Matrix: [[], [[1]], [2, 3]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[1, 2], [3, 5]]
-2023-02-04 22:22:30,145 ERROR: Length of rows in matrix [[], [[1]], [2, 3]] are not equal!
-2023-02-04 22:22:30,145 INFO: First Matrix: [[1, 2], [3, 4]]
-2023-02-04 22:22:30,145 INFO: Second Matrix: [[5, 6, 7], [8, 9, 10]]
-2023-02-04 22:22:30,145 INFO: Matrix [[1, 2], [3, 4]] does not have empty rows
-2023-02-04 22:22:30,145 INFO: Matrix [[5, 6, 7], [8, 9, 10]] does not have empty rows
-2023-02-04 22:22:30,160 INFO: Number of columns of first matrix matches number of rows of second matrix
-2023-02-04 22:22:30,160 INFO: Matrix [[1, 2], [3, 4]] contains only integer or float values
-2023-02-04 22:22:30,160 INFO: Matrix [[5, 6, 7], [8, 9, 10]] contains only integer or float values
-2023-02-04 22:22:30,160 INFO: Both matrices ok, doing matrix multiplication
-2023-02-04 22:22:30,160 INFO: Matrix Multiplication = [[21, 24, 27], [47, 54, 61]]
-2023-02-04 22:22:30,160 INFO: First Matrix: [[1, 0.5]]
-2023-02-04 22:22:30,160 INFO: Second Matrix: [[2, 4], [6, 8]]
-2023-02-04 22:22:30,160 INFO: Matrix [[1, 0.5]] does not have empty rows
-2023-02-04 22:22:30,160 INFO: Matrix [[2, 4], [6, 8]] does not have empty rows
-2023-02-04 22:22:30,160 INFO: Number of columns of first matrix matches number of rows of second matrix
-2023-02-04 22:22:30,160 INFO: Matrix [[1, 0.5]] contains only integer or float values
-2023-02-04 22:22:30,160 INFO: Matrix [[2, 4], [6, 8]] contains only integer or float values
-2023-02-04 22:22:30,160 INFO: Both matrices ok, doing matrix multiplication
-2023-02-04 22:22:30,160 INFO: Matrix Multiplication = [[5.0, 8.0]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [['a', 1], [2, 3]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2], [3, 4]]
+2023-02-04 22:27:18,809 INFO: Matrix [['a', 1], [2, 3]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2], [3, 4]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Number of columns of first matrix matches number of rows of second matrix
+2023-02-04 22:27:18,809 ERROR: Non-integer value given in matrix [['a', 1], [2, 3]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 2]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2, 3]]
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2, 3]] does not have empty rows
+2023-02-04 22:27:18,809 ERROR: Number of columns of first matrix [[1, 2]] does not match number of rows of second matrix [[1, 2, 3]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2]]
+2023-02-04 22:27:18,809 ERROR: Empty matrix: [[]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 2]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[]]
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2]] does not have empty rows
+2023-02-04 22:27:18,809 ERROR: Empty matrix: [[]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1]]
+2023-02-04 22:27:18,809 ERROR: Empty matrix: [[]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 2], [], [2, 3]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2], [3, 5]]
+2023-02-04 22:27:18,809 ERROR: Length of rows in matrix [[1, 2], [], [2, 3]] are not equal!
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 2], [[1]], [2, 3]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2], [3, 5]]
+2023-02-04 22:27:18,809 ERROR: Length of rows in matrix [[1, 2], [[1]], [2, 3]] are not equal!
+2023-02-04 22:27:18,809 INFO: First Matrix: [[], [[1]], [2, 3]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[1, 2], [3, 5]]
+2023-02-04 22:27:18,809 ERROR: Length of rows in matrix [[], [[1]], [2, 3]] are not equal!
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 2], [3, 4]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[5, 6, 7], [8, 9, 10]]
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2], [3, 4]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Matrix [[5, 6, 7], [8, 9, 10]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Number of columns of first matrix matches number of rows of second matrix
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 2], [3, 4]] contains only integer or float values
+2023-02-04 22:27:18,809 INFO: Matrix [[5, 6, 7], [8, 9, 10]] contains only integer or float values
+2023-02-04 22:27:18,809 INFO: Both matrices ok, doing matrix multiplication
+2023-02-04 22:27:18,809 INFO: Matrix Multiplication = [[21, 24, 27], [47, 54, 61]]
+2023-02-04 22:27:18,809 INFO: First Matrix: [[1, 0.5]]
+2023-02-04 22:27:18,809 INFO: Second Matrix: [[2, 4], [6, 8]]
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 0.5]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Matrix [[2, 4], [6, 8]] does not have empty rows
+2023-02-04 22:27:18,809 INFO: Number of columns of first matrix matches number of rows of second matrix
+2023-02-04 22:27:18,809 INFO: Matrix [[1, 0.5]] contains only integer or float values
+2023-02-04 22:27:18,809 INFO: Matrix [[2, 4], [6, 8]] contains only integer or float values
+2023-02-04 22:27:18,809 INFO: Both matrices ok, doing matrix multiplication
+2023-02-04 22:27:18,809 INFO: Matrix Multiplication = [[5.0, 8.0]]
