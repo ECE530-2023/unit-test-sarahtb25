@@ -1,13 +1,13 @@
 import matrix_multiplier
 import cProfile
 import tracemalloc
-import os
 import linecache
 import pstats
 
 known_cases = (([['a', 1], [2, 3]], [[1, 2], [3, 4]], "Non-integer value given!"),
                ([[1, 2]], [[
-                1, 2, 3]], "Number of columns of first matrix does not match number of rows of second matrix!"),
+                1, 2, 3]],
+                "Number of columns of first matrix does not match number of rows of second matrix!"),
                ([[]], [[1, 2]], "Empty matrix!"),
                ([[1, 2]], [
                 []], "Empty matrix!"),
